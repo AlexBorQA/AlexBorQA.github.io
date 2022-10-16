@@ -16,6 +16,29 @@ body {
   border-radius: 50%;
 }
 
+img.header__avatar {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+img.header__avatar:hover {
+  -webkit-transform: rotate(20deg); /* Градусы поворота можно изменить по необходимости */
+          transform: rotate(20deg); /* Градусы поворота можно изменить по необходимости */
+}
+     
+
+h1{
+    background-color:black;
+    color:white;
+}
+h1:hover{
+    background-color:black;
+    color:red;
+}
+
+
+
+
+
 .header__title {
   margin: 30px 0 10px 0;
   font-size: 32px;
